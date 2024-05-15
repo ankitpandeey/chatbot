@@ -5,6 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./Components/Pictures/BG/Image\ 1.png');
+  background-size: cover;
+  background-position: center;
+  animation: slide 50s 10s infinite;
+}
+
+@keyframes slide {
+  0%{background-image: url('./Components/Pictures/BG/Image\ 1.png');}
+  20%{background-image: url('./Components/Pictures/BG/Image\ 2.png');}
+  40%{background-image: url('./Components/Pictures/BG/Image\ 3.png');}
+  60%{background-image: url('./Components/Pictures/BG/Image\ 4.png');}
+  80%{background-image: url('./Components/Pictures/BG/Image\ 5.png');}
+  100%{background-image: url('./Components/Pictures/BG/Image\ 1.png');}
 }
 
 code {
