@@ -5,14 +5,16 @@ import MessageParser from "./Components/Messagner";
 import ActionProvider from "./Components/ActionProvider";
 import 'react-chatbot-kit/build/style.css';
 import Header from "./Components/Header";
+import Paragraph from "./Components/Paragraph";
 
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <Header/>
+        <Paragraph/>
         <header className="bothead">
-        <Chatbot className 
+        <Chatbot
         config={config}
         messageParser={MessageParser}
         actionProvider={ActionProvider}
